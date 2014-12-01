@@ -75,5 +75,5 @@ from customers
 where discount in(select discount
 		   from customers
 		   where city in ('Dallas','Kyoto'))
-order by cid asc		   
+order by cid ASC		   
 
